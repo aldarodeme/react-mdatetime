@@ -48,7 +48,7 @@ class App extends Component {
             />
           </div>
 
-           <div className="input m-t">
+          {/* <div className="input m-t">
             <input type="text" value={this.state.m.format('llll')} readOnly />
           </div>
           <div className="m-b">
@@ -61,17 +61,7 @@ class App extends Component {
               minStep={5}
               onSave={this.handleSave}
             />
-          </div>
-	        <div className="m-t">
-		        <DropdownPicker
-			        moment={this.state.m}
-			        type={"datetime"}
-			        theme={"dark"}
-			        onChange={this.handleChange}
-			        minStep={5}
-			        onSave={this.handleSave}
-		        />
-	        </div>
+          </div> */}
         </form>
       </div>
     );
